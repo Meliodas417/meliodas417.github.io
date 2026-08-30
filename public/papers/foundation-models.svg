@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Foundation model collaboration thumbnail">
+  <rect width="640" height="360" fill="#f8faf7"/>
+  <circle cx="320" cy="176" r="74" fill="#ffffff" stroke="#235789" stroke-opacity="0.28" stroke-width="3"/>
+  <text x="320" y="184" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#191b1d">FM</text>
+  <g fill="#ffffff" stroke-width="3">
+    <circle cx="164" cy="92" r="38" stroke="#235789" stroke-opacity="0.28"/>
+    <circle cx="480" cy="92" r="38" stroke="#2f6f4e" stroke-opacity="0.32"/>
+    <circle cx="164" cy="260" r="38" stroke="#9a4d2e" stroke-opacity="0.3"/>
+    <circle cx="480" cy="260" r="38" stroke="#235789" stroke-opacity="0.28"/>
+  </g>
+  <g stroke="#191b1d" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round">
+    <path d="M199 109l72 38M441 109l-72 38M199 243l72-38M441 243l-72-38"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#235789">
+    <text x="164" y="97" text-anchor="middle">branch</text>
+    <text x="480" y="97" text-anchor="middle">merge</text>
+    <text x="164" y="265" text-anchor="middle">adapt</text>
+    <text x="480" y="265" text-anchor="middle">eval</text>
+  </g>
+  <text x="320" y="326" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#235789">collaborative foundation model development</text>
+</svg>

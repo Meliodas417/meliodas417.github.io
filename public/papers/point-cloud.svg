@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Point cloud diffusion thumbnail">
+  <rect width="640" height="360" fill="#f8faf7"/>
+  <g fill="#235789" opacity="0.28">
+    <circle cx="158" cy="134" r="5"/><circle cx="188" cy="92" r="4"/><circle cx="218" cy="156" r="5"/>
+    <circle cx="256" cy="108" r="4"/><circle cx="292" cy="178" r="5"/><circle cx="336" cy="126" r="4"/>
+    <circle cx="386" cy="160" r="5"/><circle cx="428" cy="106" r="4"/><circle cx="476" cy="178" r="5"/>
+    <circle cx="204" cy="224" r="4"/><circle cx="270" cy="244" r="5"/><circle cx="358" cy="238" r="4"/>
+    <circle cx="452" cy="226" r="5"/><circle cx="514" cy="142" r="4"/><circle cx="118" cy="198" r="5"/>
+  </g>
+  <g stroke="#2f6f4e" stroke-opacity="0.26" stroke-width="2">
+    <path d="M158 134l60 22 38-48 80 18 50 34 42-54 48 72"/>
+    <path d="M118 198l86 26 66 20 88-6 94-12 62-84"/>
+    <path d="M188 92l68 16 36 70 66 60"/>
+  </g>
+  <rect x="88" y="54" width="464" height="252" rx="24" fill="none" stroke="#191b1d" stroke-opacity="0.1" stroke-width="3"/>
+  <path d="M96 274c82-18 128-62 204-72 82-11 134 28 244-24" fill="none" stroke="#9a4d2e" stroke-opacity="0.28" stroke-width="5" stroke-linecap="round"/>
+  <text x="320" y="326" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#235789">image-guided point cloud diffusion</text>
+</svg>
