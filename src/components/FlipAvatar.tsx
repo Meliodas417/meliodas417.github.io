@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { PixelatedCanvas } from '@/components/ui/pixelated-canvas'
 import { cn } from '@/lib/utils'
 
-const avatarSrc = '/images/jun-ren.jpg'
+const avatarSrc = `${import.meta.env.BASE_URL}images/jun-ren.jpg`
 
 export function FlipAvatar() {
   const [flipped, setFlipped] = useState(false)

@@ -18,6 +18,8 @@ import { FloatingDockNav } from '@/components/FloatingDockNav'
 import { LinkPreview } from '@/components/ui/link-preview'
 import { TextHoverEffect } from '@/components/ui/text-hover-effect'
 
+const assetUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Research', href: '#research' },
@@ -52,7 +54,7 @@ const researchItems = [
 
 const publications = [
   {
-    image: '/papers/appforge_construction.png',
+    image: assetUrl('papers/appforge_construction.png'),
     imageAlt: 'Construction pipeline for the AppForge benchmark',
     venue: 'ICLR 2026',
     status: 'Selected publication',
@@ -67,7 +69,7 @@ const publications = [
     ],
   },
   {
-    image: '/papers/sail-system-architecture.png',
+    image: assetUrl('papers/sail-system-architecture.png'),
     imageAlt: 'System architecture of SAIL',
     venue: 'arXiv 2024',
     status: 'Preprint',
@@ -78,7 +80,7 @@ const publications = [
     links: [['arXiv', 'https://arxiv.org/abs/2409.13311']],
   },
   {
-    image: '/papers/sphinx-navigation-workflow.png',
+    image: assetUrl('papers/sphinx-navigation-workflow.png'),
     imageAlt: 'Goal-based mobile UI navigation workflow evaluated by Sphinx',
     venue: 'arXiv 2025',
     status: 'Preprint',
@@ -89,7 +91,7 @@ const publications = [
     links: [['arXiv', 'https://arxiv.org/abs/2501.02863']],
   },
   {
-    image: '/papers/juntas-mergeability-study.png',
+    image: assetUrl('papers/juntas-mergeability-study.png'),
     imageAlt: 'Distribution of merging losses across NLP model branches',
     venue: 'FSE 2026',
     status: 'Under review',
@@ -99,7 +101,7 @@ const publications = [
     links: [],
   },
   {
-    image: '/papers/point-cloud-visual-comparison.png',
+    image: assetUrl('papers/point-cloud-visual-comparison.png'),
     imageAlt: 'Original and multimodally upsampled point-cloud comparison',
     venue: 'TRB 2026',
     status: 'Accepted for presentation',
